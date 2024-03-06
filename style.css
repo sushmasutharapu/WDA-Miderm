@@ -1,0 +1,148 @@
+body {
+    font-family:sans-serif ;
+    margin: 0;
+  }
+  
+  header {
+    background-color: #000080;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav {
+    text-align: center;
+    float: center;
+  }
+  
+  nav a {
+    color: #ffff00;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  main {
+    padding: 20px;    
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    background-color: #000080;
+    display: flex;
+  }
+
+  #social_icons {
+    padding: .5em;
+    line-height: 2.7;
+    padding: 10px;
+    text-align: center;
+    display: block;
+}
+#social_icons img{
+  width:50px;
+  height:60px;
+  margin-right: 10px;
+}
+  
+  /* Fixed width and height values */
+  
+  #about {
+    width: fit-content;
+    height: 350px;
+    margin: 10px 0;
+    border: 5px;
+    border-color: #000;
+    display: inline-flex
+  }
+  
+  #contact {
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+  }
+
+.box {
+    height: 50%;
+    width: 32%;
+    display: inline-block;
+}
+
+.grandparent {
+    background-color:#000080;
+    margin: 10px;
+}
+
+.parent{
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+
+}
+
+.box .grandparent .parent img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: block;
+}
+
+#photogallery{
+  display: inline-block;
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.9%;
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 49.9%;
+    margin: 6px 0;
+  }
+  .box {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+  #about{
+    display: inline-block
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+  .box {
+    width: 100%;
+  }
+  #about{
+    display: inline-block;
+  }
+}
+  
